@@ -6,9 +6,26 @@ players = (
     "affiliated3",
 )
 
-strategies1 = ("vote_for_yourself", "vote2", "vote3", "vote_for_yourself_and_pay")
-strategies2 = ("vote1", "vote_for_yourself", "vote3", "vote_for_yourself_and_pay")
-strategies3 = ("vote1", "vote2", "vote_for_yourself", "vote_for_yourself_and_pay")
+strategies1 = (
+    ("vote_for_yourself", 1), 
+    ("vote_for_yourself_and_pay", 1),
+    ("vote", 2), 
+    ("vote", 3),
+)
+
+strategies2 = (
+    ("vote", 1),
+    ("vote_for_yourself", 2), 
+    ("vote_for_yourself_and_pay", 2),
+    ("vote", 3),
+)
+
+strategies3 = (
+    ("vote", 1),
+    ("vote", 2),
+    ("vote_for_yourself", 3), 
+    ("vote_for_yourself_and_pay", 3),
+)
 
 from itertools import product
 
