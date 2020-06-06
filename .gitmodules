@@ -1,0 +1,4 @@
+[submodule "primitivegametheory"]
+	path = primitivegametheory
+	url = https://github.com/andreysobol/primitivegametheory.git
+	branch = master
